@@ -1,0 +1,31 @@
+{
+  "name": "node-koa-server",
+  "version": "1.0.0",
+  "description": "a node server app created by koa",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development && nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "koa"
+  ],
+  "author": "liguirong720",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "glob": "^7.1.6",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compose": "^4.1.0",
+    "koa-cookie": "^1.0.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.7.10",
+    "nodemon": "^1.19.4"
+  }
+}
