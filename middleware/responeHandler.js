@@ -3,9 +3,11 @@ const responeHandler = () => {
         return (data = null, code = '000000', msg = '请求成功') => {
             ctx.set('Content-Type', 'application/json');
             ctx.body = {
-                data,
                 code,
                 msg
+            }
+            if (data) {
+                ctx.body.data = data
             }
         }
     }
@@ -14,9 +16,11 @@ const responeHandler = () => {
         return (data = null, code, msg = '请求失败') => {
             ctx.set('Content-Type', 'application/json');
             ctx.body = {
-                data: null,
                 code,
                 msg
+            }
+            if (data) {
+                ctx.body.data = data
             }
         }
     }

@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 const config = require('./config');
 
+mongoose.set('useFindAndModify', false);
+mongoose.set('useNewUrlParser', true);
+mongoose.set('useUnifiedTopology', true);
+
 const connectionDB = () => {
     mongoose.connect(config.database);
     const db = mongoose.connection;

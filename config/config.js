@@ -12,8 +12,6 @@ module.exports = {
     // 不需要鉴权的路由
     unlessPath: [
         /\/api\/user\/register/,
-        /\/api\/user\/login/,
-        /\/api\/query\/list/,
-        /\/api\/query\/detail/,
+        /\/api\/user\/login/
     ]
 }
