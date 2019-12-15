@@ -9,7 +9,8 @@
   },
   "keywords": [
     "node",
-    "koa"
+    "koa",
+    "mongodb"
   ],
   "author": "liguirong720",
   "license": "ISC",
@@ -19,12 +20,13 @@
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.11.0",
     "koa-body": "^4.1.1",
-    "koa-bodyparser": "^4.2.1",
     "koa-compose": "^4.1.0",
     "koa-cookie": "^1.0.0",
     "koa-json": "^2.0.2",
     "koa-jwt": "^3.6.0",
     "koa-router": "^7.4.0",
+    "koa-session": "^5.12.3",
+    "koa-static": "^5.0.0",
     "mongoose": "^5.7.10",
     "nodemon": "^1.19.4"
   }

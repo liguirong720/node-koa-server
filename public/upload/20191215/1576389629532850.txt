@@ -1,0 +1,25 @@
+【一】vue项目创建命令
+winpty vue.cmd create project_name
+
+【二】小程序key值
+wxba6f955f4eeab820
+
+【三】启动MongoDB
+1、进入D盘安装目录  D:\software\mongodb\bin
+2、执行命令mongod --dbpath "D:\software\mongodb\data\db"
+
+【四】启动NGINX
+
+进入nginx安装目录后，执行下列操作：
+
+验证配置是否正确: nginx -t
+
+查看Nginx的版本号：nginx -V
+
+启动Nginx：start nginx
+
+快速停止或关闭Nginx：nginx -s stop
+
+正常停止或关闭Nginx：nginx -s quit
+
+配置文件修改重装载命令：nginx -s reload
